@@ -15,10 +15,17 @@ h2 {
 #navigation {
     position: absolute;
     left: 0;
-    top: 70px;
     width: 150px;
 }
 
 #content {
     margin-left: 150px;
+}
+
+#footer {
+    background: #ccc;
+}
+
+#footer p {
+    margin: 0;
 }
