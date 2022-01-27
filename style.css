@@ -29,3 +29,11 @@ h2 {
 #footer p {
     margin: 0;
 }
+
+#container {
+    position: relative;
+    width: 580px;
+    border: solid #036;
+    border-width: 0 3px;
+    margin: auto;
+}
