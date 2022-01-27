@@ -1,5 +1,6 @@
 body {
     font: 80% arial, helvetica, sans-serif;
+    background: #ccc url("images/lizards2.gif");
     margin: 0;
 }
 
@@ -26,7 +27,9 @@ h2 {
 }
 
 #content {
-    margin-left: 150px;
+    border-left: 134px solid #069;
+    background: white url("images/lizards.gif") repeat-y;
+    padding: 1px 20px 1em 40px;
 }
 
 #content img {
