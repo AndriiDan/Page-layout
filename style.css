@@ -3,13 +3,21 @@ body {
     margin: 0;
 }
 
-h1,
+.accessaid,
+h1 {
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+}
+
 h2 {
-    margin: 0;
+    font-size: 1.5em;
+    color: #036;
 }
 
 #header {
-    background: #ccc;
+    background: #036 url("images/charlesdarwin.gif");
+    height: 60px;
 }
 
 #navigation {
@@ -19,6 +27,15 @@ h2 {
 
 #content {
     margin-left: 150px;
+}
+
+#content img {
+    width: 100px;
+    height: 150px;
+    padding: 1px;
+    border: 1px solid #333;
+    float: right;
+    margin: 0 0 1em 1em;
 }
 
 #footer {
