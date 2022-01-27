@@ -13,8 +13,7 @@ h2 {
 }
 
 #navigation {
-    position: absolute;
-    left: 0;
+    float: left;
     width: 150px;
 }
 
@@ -23,6 +22,7 @@ h2 {
 }
 
 #footer {
+    clear: left;
     background: #ccc;
 }
 
