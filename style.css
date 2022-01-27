@@ -3,12 +3,22 @@ body {
     margin: 0;
 }
 
-#navigation {
+h2 {
+    margin-top: 0;
+}
+
+#navigation1 {
     position: absolute;
     left: 0;
-    width: 15em;
+    width: 200px;
+}
+
+#navigation2 {
+    position: absolute;
+    right: 0;
+    width: 150px;
 }
 
 #content {
-    border-left: 15em solid #ccf;
+    margin: 0 150px 0 200px;
 }
