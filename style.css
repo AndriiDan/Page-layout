@@ -10,5 +10,5 @@ body {
 }
 
 #content {
-    margin-left: 15em;
+    border-left: 15em solid #ccf;
 }
